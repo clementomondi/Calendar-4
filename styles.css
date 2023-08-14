@@ -1,0 +1,272 @@
+/* Add CSS here */
+.body-container {
+    font-family: 'poppins', sans-serif;
+    background-color: #170a42;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    height: 500px;
+    max-width: 670px;
+    display: flex;
+}
+
+.card-1 {
+    background-color: #241464;
+    height: 500px;
+    width: 70%;
+    padding: 20px;
+}
+
+.card-2 {
+    background-color: #1c0958;
+    height: 500px;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown h3 {
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+}
+
+.countdown h4 {
+    font-size: 12px;
+    color: white;
+}
+
+.months {
+    display: flex;
+    gap: 10px;
+}
+
+.months h4 {
+    margin-top: 4px;
+    font-size: 13px;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.content p {
+    font-size: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.content h1 {
+    font-size: 10px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.auction {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.auction:hover {
+    height: 10px;
+    width: 50px;
+    background-color: #e015ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10em;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons h5 {
+    color: #433185;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    background-color: #e015ed;
+    padding: 7px;
+    width: 70%;
+    border-radius: 0.3em;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:600px) {
+    .body-container {
+        font-family: 'poppins', sans-serif;
+        background-color: #170a42;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        height: 500px;
+        width: 100%;
+        display: flex;
+    }
+
+    .card-1 {
+        background-color: #241464;
+        height: 500px;
+        width: 85%;
+        padding: 10px;
+    }
+
+    .card-2 {
+        background-color: #1c0958;
+        height: 500px;
+        width: 45%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .countdown {
+        text-align: center;
+    }
+
+    .countdown h3 {
+        font-size: 9px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .countdown h4 {
+        font-size: 7px;
+        color: white;
+    }
+
+    .months {
+        display: flex;
+
+    }
+
+    .months h4 {
+        margin-top: 4px;
+        font-size: 10px;
+        color: white;
+        padding-bottom: 35px;
+    }
+
+    .contents {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    
+    }
+
+    .content p {
+        font-size: 8px;
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+
+    .content h1 {
+        font-size: 9px;
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .auction {
+        height: 10px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10em;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .auction:hover {
+        height: 10px;
+        width: 50px;
+        background-color: #e015ed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10em;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icons h5 {
+        color: #433185;
+        padding-top: 10px;
+        font-size: 8.3px;
+        font-weight: 800;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        font-size: 6px;
+        color: white;
+        font-weight: 800;
+        background-color: #e015ed;
+        padding: 7px;
+        width: 70%;
+        border-radius: 0.3em;
+    }
+}
